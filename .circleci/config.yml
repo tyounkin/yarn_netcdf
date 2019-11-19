@@ -16,4 +16,4 @@ jobs:
           command: date
       - run:
           name: Install netcdf
-          command: apt-get install netcdf
+          command: sudo apt-get install libnetcdf-dev
